@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+<h1>
+    <p id="c1">2</p>
+    <p id="c2" >3</p>
+    <p id="result">?</p>
+    
+</h1>
+
+    </center>
+
+    <script>
+        const soma = document.getElementById('result');
+        const c1 = document.getElementById('c1');
+        const c2 = document.getElementById('c2');
+        
+        const v1= Number(c1.innerText);
+        const v2= Number(c2.innerText);
+        const result=v1+v2;
+        soma.innerText = `A soma de ${v1} + ${v2} é ${result} `;
+        
+    </script>
+</body>
+</html>

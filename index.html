@@ -13,7 +13,7 @@
     </header>
 
     <main>
-
+        <p id="saida">A pessoa NOME tem x anos !</p>
     </main>
     <footer>
         &copy: Erik Souza - 2023
@@ -32,6 +32,9 @@
         }; 
         pessoa.envelhecer();
         console.log(pessoa);
+        const p = document.getElementById('saida');
+        console.log(p);
+        $0.innerText = `A pessoa ${pessoa.nome} tem ${pessoa.idade} anos!`;
 
     </script>
 </body>
